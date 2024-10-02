@@ -1,0 +1,112 @@
+body{background-image:url('sky.avif');
+     background-repeat:no-repeat;
+	 background-attachment:fixed;
+	 background-size:cover;
+     }
+ h1{color:#56D54B;
+    text-align:center;
+	font-size:300%;
+	}
+	
+	   
+.button{
+	background-color: #4caf50;
+	border: none;
+	color: white;
+	padding: 15px 32px;
+	text-align: center;
+	text-decoration: none;
+	display: inline-block;
+	font-size: 16px;
+	margin: 4px 2px;
+	cursor: pointer;
+	border-radius: 0px 50px 0px 50px;
+}
+		
+.button2{background-color:#f44336;}
+.button3{background-color:#e7e7e7;}
+.button4{background-color:#555555;}
+.button5{background-color:#008CBA;}
+.button6{background-color:#e83f20;}
+.button7{background-color:#2039e8;}
+
+img{border-radius:0px;}
+/*Navigation bar start*/
+
+
+body{margin:0}
+ul{
+   list-style-type:none;
+   margin:0;
+   padding:0;
+   overflow:hidden;
+   background-color:#333;
+}
+li{float:left;
+   border-right:1px solid #bbb;
+}
+
+li:last-child{
+	border-right:none;
+}
+
+li a {
+     display:block;
+      color:white;
+	  text-align:center;
+	  padding:14px 16px;
+	  text-decoration:none;
+}
+
+li a:hover:not(.active){
+      background-color:#111;
+}
+
+.active{background-color:#4CAF50;
+}
+
+/*Navigation bar end*/
+body{font-family:arial,halvetica,sans-serif;}
+*{box-sizing:border-box;}
+
+input[type=text],select,textarea
+       {width:100%;
+	   padding:12px;
+	   border:1px solid #ccc;
+	   border-radius:4px;
+	   box-sizing:border-box;
+	   margin-top:6ox;
+	   margin-bottom:16px;
+	   resize:vertical;
+	   }
+	   
+	   input[type=submit]{
+	         background-color:#04aa6D;
+			 color:black;
+			 padding:12px 12px;
+			 border:none;
+			 border-radius:4px;
+			 cursor:pointer;
+			 }
+			 
+		input[type=submit]:hover{
+              background-color:#45a049;}
+
+    .container{border-radius:5px;
+               background-color:#f2f2f2;
+               padding:20px;
+                }
+
+/*footer start*/
+
+.footer{
+        position:fixed;
+		left:0;
+		bottom:0;
+		width:100%;
+		background-color:pink;
+		color:red;
+		text-align:center;
+		}
+		
+/*footer end*/
